@@ -44,7 +44,7 @@
 /* banner style start */
 .banner-section{
   background-image: url("../assets/Hero-bg.png");
-  max-width: 1440px;
+  max-width: 1000px;
   min-height: 652px;
   margin: 0 auto;
   margin-bottom: 74px;
@@ -99,7 +99,6 @@
 .challenge-text-container{
   width: 946px;
   margin: 0 auto;
-  padding: 40px;
   text-align: center;
 }
 
