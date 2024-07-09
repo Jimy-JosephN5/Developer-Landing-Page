@@ -351,4 +351,63 @@
 /* Next target section style end */
 
 /* support section styles start */
+
+.support-section{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2),
+  rgba(0, 0, 0, 0.4),
+  rgba(0, 0, 0, 0.4))  ,url("../assets/handshake.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 1140px;
+  height: 313px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 16px;
+}
+
+.support-container{
+  width: 1044px;
+  height: 213px;
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.support-content > h3{
+  font-size: 32px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.support-content > p{
+font-size: 16px;
+font-weight: 40;
+color: #fff;
+}
+
+/* .support-content input{
+  margin: 0;
+  border-radius: 16px;
+} */
+#inputs{
+  margin: 0;
+}
+input[type = "email"]{
+  margin: 0;
+  width: 548px;
+  height: 57px;
+  padding: 20px;
+}
+
+input [type = "submit"]{
+  /* margin: 0; */
+  width: 548px;
+  height: 57px;
+}
+
 /* support section styles end */
