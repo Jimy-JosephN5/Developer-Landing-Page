@@ -395,19 +395,41 @@ color: #fff;
   border-radius: 16px;
 } */
 #inputs{
-  margin: 0;
-}
-input[type = "email"]{
-  margin: 0;
-  width: 548px;
-  height: 57px;
-  padding: 20px;
+  display: flex;
+  /* align-items: center;
+  justify-content: center; */
 }
 
-input [type = "submit"]{
-  /* margin: 0; */
-  width: 548px;
+input[type = "email"]{
+  display: inline-block;
+  margin: 0;
+  width: 500px;
   height: 57px;
+  padding: 20px;
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+#inputs input[type="submit"]{
+  width: 120px;
+  height: 57px;
+  margin: 0;
+  padding: 20px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  border: none;
+  background-color: rgb(255, 0, 0);
+  cursor: pointer;
+}
+
+#inputs input[type="submit"]:hover{
+  background-color: rgb(201, 20, 20);
+  transition: 0.5s ease-in;
 }
 
 /* support section styles end */
+
+/* footer styles start */
+/* footer styles end */
