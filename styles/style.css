@@ -102,7 +102,7 @@
 /* challenge section start */
 .challenge-section{
   width: 1140px;
-  height: 1340px;
+  height: 1240px;
   margin: 0 auto;
   text-align: center;
   border-radius: 16px;
@@ -400,6 +400,7 @@ input[type = "email"]{
   height: 57px;
   padding: 20px;
   border: none;
+  outline: none;
   border-radius: 8px;
   font-size: 18px;
   font-weight: 600;
@@ -414,6 +415,7 @@ input[type = "email"]{
   font-size: 18px;
   font-weight: 700;
   border: none;
+  outline: none ;
   cursor: pointer;
 }
 
