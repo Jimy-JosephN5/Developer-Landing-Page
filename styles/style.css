@@ -168,7 +168,8 @@
   border: 1px solid rgb(13, 19, 33);
   opacity: 0.7;
   font-size: 16px;
-  font-weight: 600
+  font-weight: 600;
+  cursor: pointer;
 }
 
 .flexbox-img{
@@ -428,9 +429,10 @@ input[type = "email"]{
 /* footer styles start */
 #footer{
   margin-top: 90px;
-  max-width: 1320px;
+  /* max-width: 1320px; */
   height: 100px;
-  margin: 90px auto;
+  margin: auto;
+  margin-top: 90px;
   display: flex;
   align-items: center;
   justify-content: center;
