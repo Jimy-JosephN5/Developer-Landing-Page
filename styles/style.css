@@ -24,7 +24,7 @@
 
 #header-section{
   max-width: 1320px;
-  margin:38px auto;
+  margin:0 auto;
 }
 
 /* nav styles start */
@@ -33,6 +33,7 @@
   justify-content: space-around;
   align-items: center;
   margin-bottom: 30px;
+  padding: 20px;
 }
 
 .nav-container h3{
