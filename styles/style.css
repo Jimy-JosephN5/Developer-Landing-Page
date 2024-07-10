@@ -1,24 +1,25 @@
 /* google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 
-/* shared styles */
+/* shared background-color */
+.topic1 {
+  background: rgba(255, 76, 30, 0.05);
+}
+
+.topic2 {
+  background: rgba(0, 76, 232, 0.05);
+}
+
+.topic3 {
+  background: rgba(255, 223, 0, 0.05);
+}
+
 /* Styles */
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Azeret Mono", monospace;
-}
-
-/* shared background-color */
-.topic1{
-  background: rgba(255, 76, 30, 0.05);
-}
-.topic2{
-  background: rgba(0, 76, 232, 0.05);
-}
-.topic3{
-  background: rgba(255, 223, 0, 0.05);
 }
 
 #header-section{
@@ -450,9 +451,4 @@ input[type = "email"]{
   justify-content: space-between;
   align-items: center;
 }
-
-/* .social-icons{
-  display: flex;
-  gap: 20px;
-} */
 /* footer styles end */
